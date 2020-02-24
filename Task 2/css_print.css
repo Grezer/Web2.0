@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+  display: table;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+#header {
+  display: none;
+}
+
+#footer {
+  display: none;
+}
+
+#menu {
+  display: none;
+}
+
+#content {
+  background-color: khaki;
+  height: 100%;
+  width: 100%;
+  border: 3px solid #AD1E21;
+  line-height: 120px;
+  box-sizing: border-box;
+}
