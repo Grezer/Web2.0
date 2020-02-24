@@ -12,8 +12,34 @@ body {
   width: 100%;
   height: 20%;
   align-items: center;
+  justify-content: center;
+}
+
+
+#leftHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#centerHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 170px;
+  width: 170px;
+}
+
+#rightHeader {
+  display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
+}
+
+#and {
+  margin-bottom: 90px;
 }
 
 h1 {
@@ -25,6 +51,8 @@ h1 {
   line-height: 0.307;
   text-align: center; 
   font-weight: normal;
+  margin: 15px;
+  margin-top: 40px;
 }
 
 h2 {
@@ -86,7 +114,7 @@ main {
   
 }
 
-section {
+main section {
   display: flex;
   justify-content: center;
   padding-top: 30px;
@@ -102,3 +130,36 @@ P {
   margin-right: 60px;
 }
 
+div {
+  display: flex;
+  flex-direction: column;  
+}
+
+main section div h1 {
+  font-size: 35px;  
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+#bottomSection {
+  border-bottom: 10px solid #6b6b6b;
+}
+
+footer {
+  width: 90%;
+  display: flex;  
+  flex-direction: column; 
+  align-items: flex-start;
+}
+
+footer h1 {
+  color: #6b6b6b;
+  font-size: 35px; 
+  margin-left: 0px;
+}
+
+footer p {
+  font-size: 14px; 
+  color: #6b6b6b;
+}
