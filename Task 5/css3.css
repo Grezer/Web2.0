@@ -1,0 +1,51 @@
+nav {
+  font-size: 10px;
+}
+
+main section div h1 {
+  font-size: 25px;
+}
+
+div {
+  flex-direction: column;
+  align-items: center;
+}
+
+main section {
+  align-items: center;
+}
+
+#bottomSection {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 20;
+}
+
+h2 {
+  font-size: 7;
+}
+
+#horns {
+  width: 70px;
+}
+
+#and {
+  margin-bottom: 42px;
+}
+
+ul {
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  height: auto;
+}
+
+#centerHeader {
+  width: 100px;
+  height: 100px;
+}
