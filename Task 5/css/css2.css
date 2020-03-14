@@ -1,0 +1,56 @@
+.navButton {
+  height: calc(25% - 6px);
+  width: calc(100% - 6px);
+}
+
+h3 {
+  margin: 0px;
+  font-size: 15px;
+}
+
+.navButton .navButtonLink {
+  width: 60%;
+  height: 20px;
+  align-self: flex-end;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5%;
+  margin-top: 0px;
+  border-radius: 15px;
+}
+
+.navButton p {
+  font-size: 10px;
+}
+
+.bottomNavSection {
+  flex-direction: column;
+}
+
+.navColumn {
+  width: 100%;
+  height: 50%;
+}
+
+nav {
+  height: 1000px;
+}
+
+main {
+  height: 830px;
+  flex-direction: column;
+}
+
+main .column {
+  width: 100%;
+}
+
+.navColumn .head {
+  margin-right: 20px;
+}
+
+footer {
+  margin-right: 25px;
+}

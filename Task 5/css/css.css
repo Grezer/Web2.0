@@ -9,10 +9,10 @@ body {
 
 /* Header */
 
-header {  
+header {
   display: flex;
   width: 90%;
-  height: 10%;    
+  height: 10%;
 }
 
 .logo {
@@ -31,7 +31,7 @@ header {
 
 .logo h1 {
   font-size: 30px;
-  font-family: "DIN";
+  font-family: 'DIN';
   color: rgb(65, 17, 17);
   font-weight: bold;
   text-align: left;
@@ -42,13 +42,13 @@ header {
   color: rgba(154, 154, 154, 0.702);
 }
 
-.logo h2{
+.logo h2 {
   font-size: 11px;
-  font-family: "DIN 1451 Std";
+  font-family: 'DIN 1451 Std';
   color: rgba(154, 154, 154, 0.702);
   text-transform: uppercase;
   line-height: 0.964;
-  text-align: left;  
+  text-align: left;
   margin: 0;
 }
 
@@ -87,37 +87,35 @@ li a:hover {
   color: white;
 }
 
-
-
 /* Nav */
 
 /* TODO Рамка nav */
 
-nav {  
+nav {
   width: 90%;
   height: 70%;
-  background-color: rgb(237,236,232);
+  background-color: rgb(237, 236, 232);
   padding: 10px;
   border-radius: 20px;
 }
 
 h3 {
   font-size: 33px;
-  font-family: "Myriad Pro";
+  font-family: 'Myriad Pro';
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-align: left;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.14);
-  margin-bottom: 15px;  
-  margin-top: 15px; 
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .navButton p {
   font-size: 15px;
-  font-family: "Tahoma";
+  font-family: 'Tahoma';
   color: white;
-  text-align: left; 
-  margin: 0px;  
+  text-align: left;
+  margin: 0px;
 }
 
 .topNavSection {
@@ -142,19 +140,19 @@ h3 {
 }
 
 #GlobalSolutions {
-  background-image: url("../files/light.jpg");
+  background-image: url('../files/light.jpg');
 }
 
 #MarketResearch {
-  background-image: url("../files/v2.jpg");
+  background-image: url('../files/v2.jpg');
 }
 
 #BusinessPlanning {
-  background-image: url("../files/light2.jpg");
+  background-image: url('../files/light2.jpg');
 }
 
 #GrowthStrategies {
-  background-image: url("../files/v.jpg");
+  background-image: url('../files/v.jpg');
 }
 
 .navButton div {
@@ -193,15 +191,13 @@ h3 {
   display: flex;
   flex-direction: column;
   padding: 15px;
-  
 }
 
-.navColumn .head { 
+.navColumn .head {
   display: flex;
   align-items: center;
   justify-content: left;
   border-bottom: 2px solid #b9b8b4;
-
 }
 
 .head img {
@@ -213,30 +209,30 @@ h3 {
   margin: 10px;
 }
 
-.navColumn .head h1{  
+.navColumn .head h1 {
   margin: 0px;
   font-size: 30px;
-  font-family: "Myriad Pro";
+  font-family: 'Myriad Pro';
   color: rgb(65, 17, 17);
 }
 
-.navColumn .head p{  
+.navColumn .head p {
   margin-top: 0px;
   font-size: 15px;
-  font-family: "Myriad Pro";
+  font-family: 'Myriad Pro';
   color: #b9b8b4;
   text-transform: uppercase;
 }
 
 .navColumn p {
-  font-family: "Myriad Pro";
+  font-family: 'Myriad Pro';
   color: #b9b8b4;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .pOrange {
-  color: rgb(236,120,21);
+  color: rgb(236, 120, 21);
   font-weight: bold;
 }
 
@@ -254,7 +250,7 @@ main {
   width: 90%;
   height: 40%;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 main .column {
@@ -269,7 +265,7 @@ main .column {
 
 .head h1 {
   font-size: 25px;
-  font-family: "Myriad Pro";
+  font-family: 'Myriad Pro';
   color: black;
   text-transform: uppercase;
   margin: 0px;
@@ -277,7 +273,7 @@ main .column {
 
 .head p {
   margin: 0px;
-  color:#b9b8b4;
+  color: #b9b8b4;
 }
 
 .blockInfo {
@@ -285,8 +281,8 @@ main .column {
   padding-bottom: 10px;
 }
 
-.blockInfo p {  
-  color:#b9b8b4;
+.blockInfo p {
+  color: #b9b8b4;
   margin: 0px;
 }
 
@@ -309,16 +305,24 @@ main .column {
 }
 
 footer {
-  border-top: 2px solid rgb(236,120,21);
+  border-top: 2px solid rgb(236, 120, 21);
   height: 300px;
-  width: 100%;
+  width: 80%;
   display: flex;
   padding: 10px;
-  flex-direction: column;  
+  flex-direction: column;
   align-items: center;
+  margin-right: 25px;
 }
 
 footer p {
+  padding: 5px;
   margin: 0px;
-  color:#b9b8b4;
+  color: #b9b8b4;
+  border-right: 1px solid #b9b8b4;
+  border-left: 1px solid #b9b8b4;
+}
+
+footer div {
+  display: flex;
 }
