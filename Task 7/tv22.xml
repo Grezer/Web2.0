@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='MainXsl.xsl'?>
+<?xml-stylesheet type="text/xsl" href="tvRs1.xsl" ?>
 <TVGrid>
 <Event>
 	<Date>2014-02-28</Date>

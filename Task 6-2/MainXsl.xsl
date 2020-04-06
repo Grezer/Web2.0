@@ -10,14 +10,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:sort select="votes" order="descending"/>
 
 <xsl:if test = "position() &lt; 11">
-     <tr>
+    <tr>
         <td><a href="{url}"><xsl:value-of select="name"/></a></td>
         <td><xsl:value-of select="votes"/></td>
-        <td><xsl:value-of select="description"/></td>
-        
+        <td><xsl:value-of select="description"/></td>        
     </tr>    
-</xsl:if>
-   
+</xsl:if>   
 </xsl:for-each>
 
 </body> 
