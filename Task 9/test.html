@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="demo">
+      <h2>Countries</h2>
+      <button type="button" onclick="loadDoc()">Change Content</button>
+    </div>
+
+    <script>
+      function loadDoc() {
+        var xhttp = new XMLHttpRequest()
+        xhttp.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            console.log('this.responseText: ', this.responseText)
+            document.getElementById('demo').innerHTML = this.responseText
+          }
+        }
+        xhttp.open('GET', 'http://193.187.173.132:8440/api/app/getAll', true)
+        xhttp.send()
+      }
+    </script>
+  </body>
+</html>
