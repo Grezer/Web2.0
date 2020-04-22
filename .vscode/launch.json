@@ -7,8 +7,15 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "backend",
+      "name": "task 9",
       "program": "${workspaceFolder}/Task 9/simpleServe/index.js",
+      "outputCapture": "std"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "task 10",
+      "program": "${workspaceFolder}/Task 10/simpleServe/index.js",
       "outputCapture": "std"
     }
   ]
