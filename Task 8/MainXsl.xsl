@@ -27,8 +27,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <xsl:for-each select="Elements/Element">
             <li>
                 <xsl:variable name="gameID"><xsl:value-of select="@ID"/></xsl:variable>
-                <h3>
-                    <xsl:value-of select="/ALAWAR_EXPORT/Languages/Language[@Code='ru']/Catalogs/Catalog[@Code='casualpcgames']/Items/Item[@ID=$gameID]/Name"/>
+                <h3>                    
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="/ALAWAR_EXPORT/Languages/Language[@Code='ru']/Catalogs/Catalog[@Code='casualpcgames']/Items/Item[@ID=$gameID]/Properties/Property[@Code='OrderUrl']"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="/ALAWAR_EXPORT/Languages/Language[@Code='ru']/Catalogs/Catalog[@Code='casualpcgames']/Items/Item[@ID=$gameID]/Name"/>
+                    </xsl:element>
                 </h3>                
                 <xsl:element name="a">
                     <xsl:attribute name="href">
@@ -40,9 +45,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                         </xsl:attribute>
                     </xsl:element>
                 </xsl:element>
-                <p>
+                <p><xsl:element name="a">
+                <xsl:attribute name="href">
+                            <xsl:value-of select="/ALAWAR_EXPORT/Languages/Language[@Code='ru']/Catalogs/Catalog[@Code='casualpcgames']/Items/Item[@ID=$gameID]/Properties/Property[@Code='OrderUrl']"/>
+                        </xsl:attribute>
                     <xsl:value-of select="/ALAWAR_EXPORT/Languages/Language[@Code='ru']/Catalogs/Catalog[@Code='casualpcgames']/Items/Item[@ID=$gameID]/Properties/Property[@Code='Description450']"/>
-                </p>
+                </xsl:element></p>
             </li>
             </xsl:for-each>
         </ul>

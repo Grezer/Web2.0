@@ -10,6 +10,7 @@
 }
 
 #categoryList li label {
+  -moz-user-select: none;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -51,16 +52,19 @@
 }
 
 #categoryList li ul li h3 {
+  -moz-user-select: none;
   width: 100%;
   text-align: center;
   cursor: pointer;
 }
 
 #categoryList li ul li img {
+  -moz-user-select: none;
   float: left;
   margin: 0 10px 10px 0;
 }
 
 p {
   cursor: pointer;
+  -moz-user-select: none;
 }
