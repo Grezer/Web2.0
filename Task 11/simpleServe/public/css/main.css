@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  max-width: 500px;
+}
+.input-area {
+  width: 100%;
+  padding: 10px 30px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: #333;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.results-area {
+  width: 100%;
+  padding: 0px;
+}
+.results-area li {
+  list-style: none;
+  width: 100%;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+.results-area li:hover {
+  background-color: #eee;
+}

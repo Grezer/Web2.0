@@ -17,6 +17,13 @@
       "name": "task 10",
       "program": "${workspaceFolder}/Task 10/simpleServe/index.js",
       "outputCapture": "std"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "task 11",
+      "program": "${workspaceFolder}/Task 11/simpleServe/index.js",
+      "outputCapture": "std"
     }
   ]
 }
